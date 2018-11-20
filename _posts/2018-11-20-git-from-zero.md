@@ -66,4 +66,4 @@ tag: 学习总结
 小结
 ------------------------------------
 + 由于目前还没有小组完成项目的需要，真正发挥git威力的许多内容如`分支管理策略`、`Rebase`等，暂且放在一边，留待以后再学
-+ 最后附上一份[Git指令小汇总](yukawax.cn/posts/git-cheatsheet.pdf)
++ 最后附上一份[Git指令小汇总](http://yukawax.cn/posts/git-cheatsheet.pdf)
