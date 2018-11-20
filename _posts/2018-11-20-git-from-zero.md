@@ -62,3 +62,8 @@ tag: 学习总结
 + `git remote add origin git@server-name:path/repo-name.git` 关联一个远程库
 + `git push -u origin master` 关联后，使用该指令第一次推送master分支的所有内容
 + `git push origin master` 推送最新修改
+
+小结
+------------------------------------
++ 由于目前还没有小组完成项目的需要，真正发挥git威力的许多内容如`分支管理策略`、`Rebase`等，暂且放在一边，留待以后再学
++ 最后附上一份[Git指令小汇总](yukawax.cn/posts/git-cheatsheet.pdf)
