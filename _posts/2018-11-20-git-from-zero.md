@@ -1,83 +1,64 @@
 ---
 layout: post
-title: "��ѧgit"
+title: "初学git"
 date:   2018-11-20 19:50:00 +0800
 categories: document
-tag: ѧϰ�ܽ�
+tag: 学习总结
 ---
 
 * content
 {:toc}
 
 
-
-
-д��ǰ��   
+写在前面   
 ====================================
-<img src="{{ '/styles/images/git.PNG' | prepend: site.baseurl }}" alt="gitͼƬ" width="310" />
-+ ��Ȼ�뽨��������ҳ�Ѿ�һ��ʱ���ˣ���������¾��Ľ�һ��
-+ ����������ҳ����ҪĿ�������������ܽ�ƽʱ��ѧ�ͷ���֪ʶ
-+ �ڽ���վ�Ĺ������˽⵽��Ҫ�õ�git���֪ʶ��ѧϰ����һ��СС�ܽᣬ˳�����һ����վ�Ƿ���������
+<img src="{{ '/styles/images/git.PNG' | prepend: site.baseurl }}" alt="git图片" width="310" />
++ 虽然想建立个人主页已经一段时间了，最近终于下决心建一个
++ 建立个人主页的主要目的有两个，即总结平时所学和分享知识
++ 在建网站的过程中了解到需要用到git相关知识，学习后做一个小小总结，顺便测试一下网站是否正常工作
 
 
-һЩ����gitָ��
+一些基本git指令
 ====================================
-�������������Git�İ�װ���̣�����[��ѩ���Git�̳�](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)���Ի���ָ��ժ�����£�
+跳过基本概念和Git的安装过程，根据[廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，对基本指令摘抄如下：
 
 
-�����汾��
+创建版本库
 ------------------------------------
-+ `git init` ����ǰĿ¼���Git���Թ����Ĳֿ�
-+ `git add <filename>`  ���ļ����ӵ��ֿ�
-+ `git commit -m <message>`  ���ļ��ύ���ֿ�
++ `git init` 将当前目录变成Git可以管理的仓库
++ `git add <filename>`  将文件添加到仓库
++ `git commit -m <message>`  将文件提交到仓库
 
 
 
-ʱ�������
+时光机穿梭
 ------------------------------------
-+ `git status` ���յ�ǰ������״̬
-+ `git diff` �鿴�޸�����
++ `git status` 掌握当前工作区状态
++ `git diff` 查看修改内容
 
 
 
-�汾����
+版本回退
 ------------------------------------
-+ `git reset --hard commit_id`   HEADָ��İ汾�ǵ�ǰ�汾��ʹ�ø�ָ�����ʷ�汾
-+ `git log` �鿴�ύ��ʷ���Ա�ȷ�����˵��ĸ��汾
-+ `git reflog` �鿴������ʷ���Ա��ط�δ��
++ `git reset --hard commit_id`   HEAD指向的版本是当前版本，使用该指令返回历史版本
++ `git log` 查看提交历史，以便确定回退到哪个版本
++ `git reflog` 查看命令历史，以便重返未来
 
 
-�����޸�
+撤销修改
 ------------------------------------
-+ `git checkout -- file` �������˹�������ĳ���ļ�����ֱ�ӷ������������޸�ʱ
-+ `git reset HEAD` <file> ���㲻�������˹�����ĳ���ļ������ݣ������ӵ����ݴ���ʱ���붪���޸ģ�ʹ�ø�ָ��󣬻ص���һ����
-+�Ѿ��ύ�˲����ʵ��޸ĵ��汾��ʱ����Ҫ���������ύ���ο�`�汾����`һ�ڣ�����ǰ����û�����͵�Զ�̿�
++ `git checkout -- file` 当扰乱了工作区的某个文件，想直接放弃工作区的修改时
++ `git reset HEAD` <file> 当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，使用该指令后，回到上一场景
++已经提交了不合适的修改到版本库时，想要撤销本次提交，参考`版本回退`一节，不过前提是没有推送到远程库
 
 
-ɾ���ļ�
+删除文件
 ------------------------------------
-+ `git rm` ����ɾ��һ���ļ�
++ `git rm` 用于删除一个文件
 
 
-����Զ�̿�
+添加远程库
 ------------------------------------
-+ `git remote add origin git@server-name:path/repo-name.git` ����һ��Զ�̿�
-+ `git push -u origin master` ������ʹ�ø�ָ���һ������master��֧����������
-+ `git push origin master` ���������޸�
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
++ `git remote add origin git@server-name:path/repo-name.git` 关联一个远程库
++ `git push -u origin master` 关联后，使用该指令第一次推送master分支的所有内容
++ `git push origin master` 推送最新修改
