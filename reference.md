@@ -1,31 +1,25 @@
 ---
 layout: post
-title: 相关博客
+title: 相关博客、网站
 permalink: /reference/
 ---
 
 * content
 {:toc}
 
-
-走向架构师之路
+廖雪峰
 =====================
-[走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
+[廖雪峰的个人官方网站](https://www.liaoxuefeng.com/)
 
-HTTP协议详解
+阮一峰
 =====================
-[HTTP协议详解](http://www.jmarshall.com/easy/http/)
+[阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
 
-Axis 2.0的入门
+鸟哥
 =====================
-[曹胜欢][http://blog.csdn.net/csh624366188/article/details/8362696](http://blog.csdn.net/csh624366188/article/details/8362696)
+[鸟哥的linux私房菜](http://linux.vbird.org/)
 
-[一线码农]
+学术资源站
 =====================
-算法入门和分布式缓存入门
-[http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html](http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html)
-
-[雷霄骅]
-=====================
-视音频编解码技术学习方法
-[http://blog.csdn.net/leixiaohua1020/article/details/18893769](http://blog.csdn.net/leixiaohua1020/article/details/18893769)
+[万千合集站](http://www.hejizhan.com/html/search)
+[Library Genesis](http://gen.lib.rus.ec/)
