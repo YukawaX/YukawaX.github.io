@@ -12,7 +12,7 @@ tag: 学习总结
 
 写在前面   
 ====================================
-<img src="{{ '/styles/images/git.PNG' | prepend: site.baseurl }}" alt="git图片" width="310" />
+<img src="{{ '/styles/images/git.png' | prepend: site.baseurl }}" alt="git图片" width="310" />
 + 虽然想建立个人主页已经一段时间了，最近终于下决心建一个
 + 建立个人主页的主要目的有两个，即总结平时所学和分享知识
 + 在建网站的过程中了解到需要用到git相关知识，学习后做一个小小总结，顺便测试一下网站是否正常工作
