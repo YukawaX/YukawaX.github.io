@@ -2,8 +2,8 @@
 layout: post
 title: "初学git"
 date:   2018-11-20 19:50:00 +0800
-categories: document
-tag: 学习总结
+categories: 学习总结
+tag: Git
 ---
 
 * content
